@@ -1,0 +1,17 @@
+{
+  "name": "rct",
+  "version": "0.0.0",
+  "description": "React, Flux, Reactify, Browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^10.2.3",
+    "flux": "^2.0.3",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1"
+  }
+}
