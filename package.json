@@ -16,6 +16,6 @@
   },
   "scripts": {
     "test": "echo 'No tests defined!' && exit 1",
-    "build": "./node_modules/.bin/browserify -t reactify src/**/* -o src/build.js"
+    "build": "./node_modules/.bin/browserify -t reactify src/app.js -o src/build.js"
   }
 }

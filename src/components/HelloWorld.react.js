@@ -2,10 +2,10 @@
 
 var React = require('react');
 
-var HellowWorld = React.createClass({
+var HelloWorld = React.createClass({
   render: function() {
     return <div>Hello world</div>;
   }
 });
 
-module.exports = HellowWorld;
+module.exports = HelloWorld;
