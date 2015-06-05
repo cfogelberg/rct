@@ -13,5 +13,9 @@
     "flux": "^2.0.3",
     "react": "^0.13.3",
     "reactify": "^1.1.1"
+  },
+  "scripts": {
+    "test": "echo 'No tests defined!' && exit 1",
+    "build": "./node_modules/.bin/browserify -t reactify src/**/* -o src/build.js"
   }
 }
