@@ -3,4 +3,4 @@
 var React = require('react');
 var HelloWorld = require('./components/HelloWorld.react');
 
-React.render(<HelloWorld />, document.getElementById('app'));
+React.render(<HelloWorld who='Jimbob' />, document.getElementById('app'));
